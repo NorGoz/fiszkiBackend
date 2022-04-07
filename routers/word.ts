@@ -1,7 +1,7 @@
 const express = require('express');
 const {showAllCategories,getWordsFromOneCategories,addWordToCategories,deleteWord,editWord} = require("../controlers/wordControllers");
 const {readdir} = require('fs').promises
-const {db} = require("../utils/words");
+
 
 const clientRouter = express.Router();
 
